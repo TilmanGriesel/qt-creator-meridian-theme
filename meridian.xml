@@ -1,7 +1,7 @@
+<!-- QtCreator Meridian Theme https://github.com/TilmanGriesel/qt-creator-meridian -->
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- QtCreator  Meridian Theme https://github.com/TilmanGriesel/qt-creator-meridian -->
 <style-scheme version="1.0" name="Meridian">
-  <style name="Text" foreground="#99b9c8" background="#232525"/>
+  <style name="Text" foreground="#99b9c8" background="#212126"/>
   <style name="Link" foreground="#589df6"/>
   <style name="Selection" foreground="#ffffff" background="#583d96"/>
   <style name="LineNumber" foreground="#37474f" background="#232525"/>
@@ -21,6 +21,7 @@
   <style name="Number" foreground="#6897bb"/>
   <style name="String" foreground="#64ffda"/>
   <style name="Type" foreground="#9574a6"/>
+  <style name="Concept" foreground="#9574a6"/>
   <style name="Namespace" foreground="#9574a6"/>
   <style name="Local"/>
   <style name="Parameter" foreground="#4199de"/>
@@ -40,7 +41,7 @@
   <style name="Comment" foreground="#546e7a" italic="true"/>
   <style name="Doxygen.Comment" foreground="#737dd5"/>
   <style name="Doxygen.Tag" foreground="#7793e4"/>
-  <style name="VisualWhitespace" foreground="#2e3437"/>
+  <style name="VisualWhitespace" foreground="#38393b"/>
   <style name="QmlLocalId" foreground="#b388ff" italic="true"/>
   <style name="QmlExternalId" foreground="#aaaaff" italic="true"/>
   <style name="QmlTypeId" foreground="#69f0ae"/>
