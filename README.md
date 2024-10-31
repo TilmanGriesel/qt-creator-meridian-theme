@@ -1,65 +1,72 @@
 # Qt Creator Meridian Theme
-A dark color scheme for Qt Creator
 
-I developed this theme while working with Qt Creator for a few years. It suits my needs and taste and I want to share it with the world.
+A professionally crafted dark theme for Qt Creator, featuring carefully balanced contrast ratios and harmonious color schemes. Developed and refined through over a decade of professional Qt development experience, Meridian is specifically designed to reduce eye strain during extended coding sessions.
 
-----
+## Preview
 
-### Preview
+### QML
+![QML Preview](https://raw.githubusercontent.com/TilmanGriesel/qt-creator-meridian/master/docs/screenshots/qml.png)
 
-QML
+### C++
+![C++ Preview](https://raw.githubusercontent.com/TilmanGriesel/qt-creator-meridian/master/docs/screenshots/cpp.png)
 
-![2017-08-09 12_01_21-app qml qml heartrate-game - qt creator](https://user-images.githubusercontent.com/1132745/29116286-9b7556ba-7cfa-11e7-87d6-e11f15e2dcbb.png)
+## Installation Guide
 
-C++
+### 1. Theme File Installation
 
-![2017-08-09 12_01_47-main cpp heartrate-game - qt creator](https://user-images.githubusercontent.com/1132745/29116296-a599cedc-7cfa-11e7-8ec6-38027bda48a5.png)
+Copy `meridian.xml` to your Qt Creator styles directory:
 
-----
+- **Windows**: `%appdata%\QtProject\qtcreator\styles`
+- **macOS/Linux**: `~/.config/QtProject/qtcreator/styles`
 
-### Comprehensive installation and settings instructions
+### 2. Qt Creator Configuration
 
-1. Copy the `meridian.xml` to the platform specific location
-    * Window `%appdata%\QtProject\qtcreator\styles`
-    * macOS & Linux `~/.config/QtProject/qtcreator/styles`
+1. Open Qt Creator settings:
+   - Navigate to **Tools → Options**
 
-1. Install Moncao font if required
-    * Example src https://github.com/todylu/monaco.ttf
-    
-1. Open QT Creator options
-    * Tools > Options
- 
- 1. Set interface theme to Flat dark
-    * Environment > Interface > User Interface > Theme > Flat Dark
-    
- 1. Visualize whitespaces
-    * Text Editor > Display > Visualize whitespace > Checked
-    
- 1. Set font to Monaco
-    * Text Editor > Font & Colors > Font > Family > Monaco
-  
- 1. Adjust font size as desired
-    * Text Editor > Font & Colors > Font > Size > 11 (for example)
-    
- 1. Set color scheme to Meridian
-    * Text Editor > Font & Colors > Color Scheme for Qt Creator Theme "Flat Dark" > Meridian
-    
- 1. Press Apply
- 
-## tl;dr
+2. Configure interface theme:
+   - Go to **Environment → Interface → User Interface**
+   - Set Theme to "Flat Dark"
 
-![2017-08-09 12_02_59-29116204-63209464-7cfa-11e7-9f05-bfbd354eb9b0 png 935x555](https://user-images.githubusercontent.com/1132745/29116352-cfcc5684-7cfa-11e7-8d76-a12ea45e7b25.png)
+3. Configure text editor settings:
+   - Navigate to **Text Editor → Display**
+   - Enable "Visualize whitespace"
 
-![install_meridian_theme_001](https://user-images.githubusercontent.com/1132745/29116106-206786dc-7cfa-11e7-867e-6fedb5d887c7.gif)
+4. Configure font settings:
+   - Go to **Text Editor → Font & Colors**
+   - Recommended font: FiraCode or Monaco
+   - Recommended size: 11pt (adjust to preference)
 
-----
+5. Apply Meridian theme:
+   - Under **Text Editor → Font & Colors**
+   - Set "Color Scheme for Qt Creator Theme 'Flat Dark'" to "Meridian"
 
-#### More visuals
+6. Click "Apply" to save changes
 
-Qt Creator 4.3.1 QML
+---
 
-![meridian_qml_preview](https://user-images.githubusercontent.com/1132745/29116170-4dc9129e-7cfa-11e7-93a1-c7f0d19817d7.png)
+I recommend installing a programming-optimized font like FiraCode if you haven't already:
+- **FiraCode**:
+  - FiraCode at [Programming Fonts](https://www.programmingfonts.org/#firacode)
+  - Download from [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/FiraCode.zip)
 
-Qt Creator 4.3.1 C++
 
-![meridian_cpp_preview](https://user-images.githubusercontent.com/1132745/29116156-45def6c0-7cfa-11e7-9f1e-99e1cf46fbfc.png)
+## Legacy Installation Demo
+
+> **Note**: The following demonstration is from 2017 and may not reflect the current version of the theme.
+
+
+![Installation Demo](https://raw.githubusercontent.com/TilmanGriesel/qt-creator-meridian/master/docs/screenshots/sc_2017_1.gif)
+
+![Theme Preview](https://raw.githubusercontent.com/TilmanGriesel/qt-creator-meridian/master/docs/screenshots/sc_2017_2.gif)
+
+## Support Development
+
+If you find this theme helpful, consider supporting its development:
+
+[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/griesel)
+
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
